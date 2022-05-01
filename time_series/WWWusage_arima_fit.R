@@ -24,7 +24,6 @@ f <- Arima(WWWusage, order = c(2,2,1)) ; f
 acf(f$residuals) #looks good
 
 
-
 #try 3 - inputing zero in phi3
 f <- Arima(WWWusage, order = c(2,2,1), fixed=c(NA,NA,0) ) ; f
 acf(f$residuals) #looks good
