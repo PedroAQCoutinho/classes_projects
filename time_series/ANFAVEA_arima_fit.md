@@ -32,7 +32,6 @@ ts.plot(anfavea.data.subset)
 f<- auto.arima(anfavea.data.subset);f
 ```
 
-
     ## Series: anfavea.data.subset 
     ## ARIMA(0,1,0) 
     ## 
