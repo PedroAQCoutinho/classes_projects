@@ -3,7 +3,7 @@ library(car)
 library(forecast)
 library(rmarkdown)
 #load data
-anfavea.data <- read.csv2('data/automoveismontadosanfavea.csv') 
+anfavea.data <- read.csv2('time_series/data/automoveismontadosanfavea.csv') 
 colnames(anfavea.data) <- c('dates', 'auto_production', 'x')
 anfavea.data <- anfavea.data[,1:2]
 #ts trasnform
