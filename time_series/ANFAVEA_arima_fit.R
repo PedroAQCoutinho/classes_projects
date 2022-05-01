@@ -25,7 +25,6 @@ abline(h = mean(diff(anfavea.data.subset)))
 #Autocorrelation of lag 1 difference - looks good
 acf((diff(anfavea.data.subset)))
 
-
 #try 1
 f <- Arima(anfavea.data.subset, order = c(1,1,0)) ; f
 acf(f$residuals)
